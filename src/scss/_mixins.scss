@@ -1,0 +1,16 @@
+@mixin base_text ($color, $font_size, $font_weight){
+color: $color;
+font-size: $font_size;
+font-weight: $font_weight;
+}
+
+@mixin base_container ($padding_top, $padding_bottom, $min_height) {
+padding-top: $padding_top;
+padding-bottom: $padding_bottom;
+min-height: $min_height;
+}
+
+@mixin background_img ($url){
+    background:url($url) center / cover no-repeat;
+    
+}

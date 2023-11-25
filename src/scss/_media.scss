@@ -1,0 +1,504 @@
+@media (min-width: 992px) and (max-width: 1200px) { 
+    .advantage_card{
+        align-items:flex-start;
+    }
+    .advantage_desc {
+        max-width: 310px;
+    }
+ }
+@media (min-width: 768px) and (max-width: 992px) { 
+    
+    header .header_list .header_item a{
+        font-size: 12px;
+    }
+    
+    header .header_list .header_item{
+        padding-right: 10px;
+    }
+
+    .order_link{
+        font-size: 20px;
+    }
+    .about {
+
+        padding-bottom: 120px;
+
+        h1{
+            font-size: 50px;
+        }
+
+        h2{
+            font-size: 30px;
+        }
+
+        p{
+            font-size: 14px;
+        }
+    }
+    
+    .advantage{
+        .subtitle{
+            font-size: 32px;
+            margin-bottom: 22px;
+        }
+
+        &_card{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &_icon{
+            margin-bottom: 15px;
+        }
+
+        &_desc{
+            h2{
+                text-align: center;;
+            }
+        } 
+    }
+   
+    .mobile{
+        .subtitle{
+            font-size: 30px;
+        }
+    } 
+   
+    .requirements{
+       
+        &_list {
+            width: 350px;
+        }
+
+        &_item{
+            font-size: 13px;
+        }
+    }
+  
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+
+        &_row{
+            flex-direction: column;
+            align-items:center;
+            order: 3;
+        }
+
+        &_about{
+            position: static;
+            transform: translate(0, 0);
+            margin-bottom: 20px;
+        }
+
+        &_social{
+            padding: 0;
+            margin-bottom: 10px;
+        }
+
+        ul{
+            padding: 0;
+        }
+    }
+ }
+ @media (min-width: 576px) and (max-width: 767px) { 
+    header{
+        .header_list{
+            display: none;
+        }
+    }
+
+    header .header_burger{
+        display: block;
+    }
+    .order{
+        height: auto;
+        min-height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+        .row{
+            align-items:center;
+        }
+
+        &_desc{
+            display: none;
+        }
+
+        &_img{
+            width: 130px;
+            height: 12px;
+        }
+
+        &_link{
+            font-size: 16px;
+            padding-right: 3px;
+        }
+
+        &_btn{
+            width: 110px;
+            height: 22px;
+            font-size: 10px;
+        }
+
+        &_tell{
+            flex-direction: column;
+            align-items:flex-end;
+        }
+    }
+    
+    .about{
+        min-height: 399px;
+        padding-top: 120px;
+        padding-bottom: 50px;
+        
+        h1{
+            font-size: 40px;
+        }
+        h2{
+            font-size: 32px;
+        }
+        p{
+            display: none;
+        }
+    }
+    
+    .advantage{
+        .subtitle{
+            margin-bottom: 22px;
+            font-size: 26px;
+        }
+
+        &_card{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &_icon{
+            margin-bottom: 22px;
+        }
+
+        &_desc {
+            max-width: 100%;
+
+            h2{
+                font-size: 22px;
+                margin-bottom: 10px;
+                text-align: center;;
+            }
+        }
+    }
+    
+    .mobile{
+        .subtitle {
+            font-size: 22px;
+        }
+
+        &_card{
+            height: 250px;
+            width: auto;
+        }
+    }
+
+    .possibilities{
+
+        min-height: 400px;
+
+        .subtitle, &_desc{
+            display: none;
+        }
+
+    
+    }
+
+    .car{
+        div{
+            width: 570px;
+            height: 365px;
+        }
+    }
+
+    .desc{
+        background: #070716;
+
+        div{
+            color: #FFF;
+            font-size: 17px;
+            font-weight: 300;
+            line-height: 24px;
+        }
+    }
+
+    .requirements{
+        .subtitle{
+            margin-bottom: 22px;
+            font-size: 30px;
+        }
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+
+        &_row{
+            flex-direction: column;
+            align-items:center;
+            order: 3;
+        }
+
+        &_about{
+            position: static;
+            transform: translate(0, 0);
+            margin-bottom: 20px;
+        }
+
+        &_social{
+            padding: 0;
+            margin-bottom: 10px;
+        }
+
+        ul{
+            padding: 0;
+        }
+    }
+ }
+ @media (max-width: 576px) { 
+    header{
+        .header_list{
+            display: none;
+        }
+    }
+    header .header_burger{
+        display: block;
+    }
+    .order{
+        height: auto;
+        min-height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+        .row{
+            align-items:center;
+            justify-content: space-around;
+
+            & > div{
+               width: 40%; 
+            }
+        }
+
+        &_desc{
+            display: none;
+        }
+
+        &_img{
+            width: 130px;
+            height: 15px;
+        }
+
+        &_link{
+            font-size: 12px;
+        }
+
+        &_btn{
+            width: 110px;
+            height: 22px;
+            font-size: 10px;
+        }
+
+        &_tell{
+            flex-direction: column;
+            align-items:center;
+        }
+    }
+    
+    .about{
+        min-height: 399px;
+        padding-top: 101px;
+        padding-bottom: 34px;
+        
+        h1{
+            font-size: 30px;
+        }
+        h2{
+            font-size: 20px;
+        }
+        p{
+            display: none;
+        }
+    }
+
+    .advantage{
+        padding-top: 23px;
+        padding-bottom: 38px;
+
+        .subtitle{
+            margin-bottom: 22px;
+            font-size: 16px;
+        }
+
+        &_card{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &_icon{
+            margin-bottom: 24px;
+        }
+
+        &_desc {
+            max-width: 100%;
+            font-size: 15px;
+
+            h2{
+                font-size: 16px;
+                margin-bottom: 10px;
+                text-align: center;;
+            }
+        }
+    }
+
+    .mobile{
+        padding-top: 28px;
+        padding-bottom: 43px;
+
+
+        .subtitle {
+            font-size: 16px;
+        }
+
+        &_card{
+            height: 250px;
+            width: auto;
+        }
+    }
+    .possibilities{
+
+        min-height: 200px;
+        padding-top: 26px;
+        padding-bottom: 31px;
+
+        .subtitle, &_desc{
+            display: none;
+        }
+
+    
+    }
+
+    .car{
+        div{
+            width: 300px;
+            height: 190px;
+        }
+    }
+
+    .desc{
+        background: #070716;
+        min-height: 200px;
+        padding-top: 100px;
+        padding-bottom: 31px;
+
+        div{
+            color: #FFF;
+            font-size: 21px;
+            font-weight: 300;
+            line-height: 24px;
+        }
+    }
+
+    .requirements{
+        padding-bottom: 30px;
+        padding-top:24px;
+
+        .subtitle{
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+
+        &_subtitle{
+            font-size: 16px;
+        }
+
+        &_list{
+            width: 100%;
+        }
+
+        &_item{
+            font-size: 14px;
+        }
+
+        &_desc{
+            display: none;
+        }
+    }
+
+    .world{
+        min-height: 360px;
+        padding-top: 26px;
+        padding-bottom: 29.5px;
+
+        .subtitle{
+            font-size: 16px;
+        }
+
+        &_desc{
+            font-size: 14px;
+        }
+
+        &_link{
+            font-size: 15px;
+        }
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+
+        .separator{
+            width: 255px;
+        }
+
+        &_nav{
+            column-gap:13px;
+        }
+
+        &_item{
+            font-size: 14px;
+        }
+
+        &_list{
+            li{
+                font-size: 7px;
+            }
+        } 
+
+        &_row{
+            flex-direction: column;
+            align-items:center;
+            order: 3;
+        }
+
+        &_about{
+            position: static;
+            transform: translate(0, 0);
+            margin-bottom: 20px;
+        }
+
+        &_social{
+            padding: 0;
+            margin-bottom: 10px;
+        }
+
+        ul{
+            padding: 0;
+        }
+
+        &_store{
+            img{
+                height: 24px;
+            }
+        }
+    }
+ }
